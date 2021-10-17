@@ -149,14 +149,20 @@
 }
 
 @media (max-width: 420px) {
+    .image-container {
+        padding-bottom: 1rem;
+    }
     .title-bullets-container {
         flex-direction: column-reverse;
+        gap: 1rem 1rem;
     }
     .bullets-container {
         width: 100%;
         justify-content: center;
+        height: 2rem;
     }
     .titles-container {
         max-width: 100%;
+        font-size: 0.9rem
     }    
   }
