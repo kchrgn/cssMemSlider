@@ -50,11 +50,12 @@
 .title-bullets-container {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     gap: 2rem 2rem;
 }
 
 .titles-container {
-    width: 80%;
+    max-width: 80%; 
     overflow: hidden;
     height: auto;
     font-size: 2em;
@@ -75,8 +76,8 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 20%;
-    height: 2rem;
+    min-width: 8rem;
+    height: 4rem;
 }
 
 .action {
@@ -156,6 +157,6 @@
         justify-content: center;
     }
     .titles-container {
-        width: 100%;
+        max-width: 100%;
     }    
   }
